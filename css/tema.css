@@ -20,11 +20,12 @@ body {
 /* HEADINGS/PARAGRAF/LISTOR osv*/
 h1,
 h2,
-h3,'
+h3,
 h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 a {
@@ -36,7 +37,11 @@ a {
   text-decoration: none;
 }
 
-
+p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2;
+}
 /* BAKGRUNDSBILDER */
 .home{background-image:url('../bilder/illustrator.png');}
 .team{background-image:url('../bilder/css.png');}
@@ -51,6 +56,38 @@ a {
   height: 90px;
   background-color: rgba(0, 0, 0, 0.75);
   margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  letter-spacing: 6px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand span {
+  font-weight: 700;
+}
+
+.navbar-nav {
+  margin-top: 20px;
+}
+
+.navbar-nav a {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-nav li {
+  margin-left: 25px;
 }
 
 hr {
@@ -85,6 +122,41 @@ hr {
   background: white;
 }
 
+.main-footer h5,
+.main-footer h5 span {
+  text-align: center;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ddd;
+  letter-spacing: 6px;
+}
+
+.main-footer h5 span {
+  font-weight: 700;
+}
+
+.nav-pills {
+  margin-top: 11px;
+}
+
+.nav-pills a {
+  font-size: 1.5em;
+  color: #999;
+}
+.nav-pills a:hover {
+  color: #000;
+}
+
+.nav-pills li {
+  margin-right: 25px;
+  background: #ddd;
+  border-radius: 6px;
+}
+
+.active {
+  background: #ccc;
+}
 
 .team {
   padding: 180px 50px 150px;;
@@ -94,7 +166,18 @@ hr {
   background-size: cover;
   background-position: center center;
 }
+.middle h2 {
+  font-size: 4.5rem;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: -15px;
+}
 
+.middle p {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.65);
+  margin-top: -15px;
+}
 
 .middle {
   padding-bottom: 1.8%;
@@ -141,4 +224,13 @@ to { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to { opacity: 1; }
+}
+
+
+@media (min-width: 800px) {
+  .middle h2 {
+    font-size: 5.5rem;
+    line-height: 1.6;
+    font-weight: 400;
+  }
 }
