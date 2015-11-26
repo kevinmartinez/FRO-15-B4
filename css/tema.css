@@ -50,6 +50,9 @@ p {
 .karta{background-image:url('../bilder/karta.png');}
 .contact{background-image:url();}
 
+.jumbo {
+  padding: 155px 50px 150px;
+}
 
 /* INNEHÅLL */
 .navbar {
@@ -90,12 +93,24 @@ p {
   margin-left: 25px;
 }
 
+/* 3 bard */
+.navbar-inverse .navbar-toggle .icon-bar {
+background-color: #37b1f9;
+}
+
+.even {
+    background-color: #F5F6F7;
+}
+
+.odd {
+  background-color: #fff;
+}
+
 hr {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .main-section {
-  background: white;
   padding: 50px 0;
 }
 
@@ -158,14 +173,6 @@ hr {
   background: #ccc;
 }
 
-.team {
-  padding: 180px 50px 150px;;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-}
 .middle h2 {
   font-size: 4.5rem;
   line-height: 1.6;
