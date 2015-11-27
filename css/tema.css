@@ -40,6 +40,18 @@ hr {
 }
 
 /* Backgrounds */
+.home,
+.team,
+.work,
+.webw,
+.karta {
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center center;
+}
+
 .home {
   background-image:url('../bilder/illustrator.png');
 }
